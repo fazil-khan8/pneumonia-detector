@@ -2,8 +2,6 @@
 
 A deep learning project that classifies chest X-rays as **NORMAL** or **PNEUMONIA**, with a Streamlit web dashboard that shows predictions, Grad-CAM heatmaps, and model insights.
 
-> ⚠️ **Educational project only. This is NOT a medical device and must not be used for diagnosis.**
-
 ## Features
 
 - **Transfer learning** with a pretrained ResNet18 (PyTorch)
