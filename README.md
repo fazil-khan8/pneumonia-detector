@@ -63,8 +63,16 @@ Raising the threshold reduces false alarms but misses more sick patients. The de
 
 ## Screenshots
 
-![Analyze tab](demo1.png)
-![Model insights tab](demo2.png)
+## Screenshots
+
+### Analyze: prediction with Grad-CAM heatmap
+<img src="docs/1.png" alt="Analyze tab" width="100%">
+
+### Analyze: prediction with random test image
+<img src="docs/2.png" alt="Analyze tab" width="100%">
+
+### Model Insights: results and charts
+<img src="docs/3.png" alt="Model insights tab" width="100%">
 
 ## Project structure
 
