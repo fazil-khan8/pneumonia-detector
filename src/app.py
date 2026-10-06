@@ -39,6 +39,7 @@ st.markdown("""
 .result-neg {background: rgba(34,197,94,.15); border: 1px solid rgba(34,197,94,.55);}
 .result-card h2 {margin: 0; font-size: 1.9rem;}
 .result-card p {margin: .3rem 0 0; opacity: .85;}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -186,6 +187,9 @@ st.sidebar.warning("Educational project. NOT a medical device.")
 # ---------------------------------------------------------------- header
 st.title("🫁 Chest X-Ray Pneumonia Detector")
 st.caption("Upload a chest X-ray, get a prediction, and see where the model was looking.")
+
+
+
 
 tab_analyze, tab_insights, tab_about = st.tabs(["🔍 Analyze", "📊 Model Insights", "ℹ️ About"])
 
